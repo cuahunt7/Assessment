@@ -20,7 +20,6 @@ public class CarProcessing {
 		};
 		
 		Car[] noDuplicates = cp.removeDuplicates(cars);
-		System.out.println(noDuplicates.length);
 		for(Car c : noDuplicates ) {
 			System.out.println(c);
 		}
