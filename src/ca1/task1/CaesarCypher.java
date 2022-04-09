@@ -35,24 +35,7 @@ public class CaesarCypher {
 		}
 		return output;
 	}
-	void output (char[] input) {
-		for(char c : input) {
-			System.out.print(c + " ");
-		}
-	}
-	
-	
-	public static void main(String [] args) {
-		CaesarCypher cc = new CaesarCypher();
-		
-		char[] input = {'a', 'b', 'c'};
-		char[] out = cc.decode(input, 1);
-		cc.output(out);
-		
-	}
-	
-	
-	
+
 }
 
 
